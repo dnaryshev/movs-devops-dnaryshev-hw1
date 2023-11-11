@@ -4,6 +4,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi import HTTPException
 
+'''
+startup: uvicorn main:app --reload
+swagger: http://127.0.0.1:8000/docs
+'''
 app = FastAPI()
 
 
